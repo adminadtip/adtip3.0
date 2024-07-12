@@ -1,0 +1,10 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+    rules:
+        avoid_print: true
+        always_declare_return_types: true
+        constant_identifier_names: false
+        prefer_const_constructors: false
+        empty_catches: false
+        directives_ordering: true

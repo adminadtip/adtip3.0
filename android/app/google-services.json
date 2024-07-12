@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "333436486029",
+    "project_id": "adtip-3873c",
+    "storage_bucket": "adtip-3873c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333436486029:android:5957954f40f53a01217dc4",
+        "android_client_info": {
+          "package_name": "com.adtip.app.adtip_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333436486029-7mc00v1agba9qo6t2ms60fc2sfealfb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adtip.app.adtip_app",
+            "certificate_hash": "e81605a6438ce6a3740f489ef03b877e072aa09b"
+          }
+        },
+        {
+          "client_id": "333436486029-7vsk89g8n6i1keml4q30hit4o1sdn36p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adtip.app.adtip_app",
+            "certificate_hash": "c5d8495c2f93c1f6b815204e343519567711a29c"
+          }
+        },
+        {
+          "client_id": "333436486029-kh2qqtndjvtias15koclo8lr50bajh14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adtip.app.adtip_app",
+            "certificate_hash": "2e848068e5d6d08b6bec1258c0b47c1c43327ebf"
+          }
+        },
+        {
+          "client_id": "333436486029-ugig3qssir8lrhjs7u7fpucfe5a4s1ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adtip.app.adtip_app",
+            "certificate_hash": "d19e7e7386ae1800fb943df51e578f3cf4f5d5a4"
+          }
+        },
+        {
+          "client_id": "333436486029-24e4ub781j4i3fl1k1p2e52amno8pmrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBamdG5TwWa4VjiVHo1rk4zgyMWHE4JQJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333436486029-24e4ub781j4i3fl1k1p2e52amno8pmrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

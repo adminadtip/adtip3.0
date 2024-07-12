@@ -1,0 +1,183 @@
+name: adtip_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 21.0.1+29
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+
+
+
+dependencies:
+
+
+
+
+  connectivity: null
+
+  cupertino_icons: ^1.0.2
+
+
+
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  flutter_share_plus: ^0.0.7
+  country_code_picker: ^3.0.0
+  carousel_slider: ^4.2.1
+  audio_video_progress_bar: ^2.0.0
+  flutter_rating_bar: ^4.0.1
+  expandable: ^5.0.1
+  syncfusion_flutter_charts: 
+  fl_chart:
+  new_version_plus:
+  image_gallery_saver:
+  razorpay_flutter: ^1.3.6
+  flutter_svg: ^2.0.7
+  fluttertoast: ^8.2.4
+  geocoding: ^2.1.0
+  geolocator: ^11.0.0
+  get: ^4.6.6
+  google_fonts: null
+  google_maps_flutter: ^2.5.0
+  google_sign_in: ^6.1.5
+  http: null
+  image_picker: ^1.0.4
+  intl: ^0.18.1
+  foundation: ^0.0.5
+  firebase_auth: ^4.10.1
+  audioplayers:
+  another_audio_recorder :
+  path_provider:
+  cached_network_image: ^3.3.0
+
+  dropdown_button2:
+  aws_s3_upload:
+  chewie:
+
+  google_places_flutter: ^2.0.6
+  firebase_dynamic_links: ^5.4.5
+  firebase_core_platform_interface:
+  pinput: ^3.0.1
+  voice_message_package: ^2.1.2
+  audio_waveforms: ^1.0.4
+  timeago: ^3.6.0
+  barcode:
+  country_picker:
+  uni_links:
+  flutter_webrtc: ^0.9.48+hotfix.1
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.1.0
+  ##zego_uikit_prebuilt_call: ^4.2.5
+
+
+
+
+  logger: ^2.0.2+1
+  lottie: ^2.7.0
+  otp_text_field: ^1.1.3
+
+  permission_handler: ^11.3.1
+  qr_flutter: ^4.1.0
+  readmore: ^2.2.0
+  rxdart: ^0.27.7
+  screenshot: null
+  share_plus: ^7.2.1
+  shared_preferences: ^2.2.1
+  shimmer: ^3.0.0
+  url_launcher: ^6.2.1
+  video_player: ^2.8.6
+  video_thumbnail: ^0.5.3
+  qr_code_scanner: ^1.0.1
+  scan: ^1.6.0
+  outline_gradient_button: ^2.0.1+1
+  pod_player: ^0.2.0
+  amplify_auth_cognito:
+  amplify_flutter:
+  amplify_storage_s3:
+  uuid: ^4.3.3
+  wakelock_plus: ^1.1.4
+  upgrader: ^9.0.0
+  mobile_scanner: ^4.0.1
+  firebase_messaging: ^14.7.19
+  awesome_notifications: ^0.8.2
+  connectivity_plus: ^6.0.3
+  flutter_easy_faq: ^1.0.1
+  auto_orientation: ^2.3.1
+  string_validator: ^1.1.0
+  multi_video_player: ^0.0.5
+
+
+
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^2.0.0
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "icon/app_logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
+    - assets/svg/
+    - assets/extra/
+    - assets/lottie/
+    - assets/videos/
+    - assets/gifs/
+  fonts:
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/MerriweatherBold.ttf
+          weight: 700
+        - asset: assets/fonts/MerriweatherRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterLight.ttf
+          weight: 300
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400

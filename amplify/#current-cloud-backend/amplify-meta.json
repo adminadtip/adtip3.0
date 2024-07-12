@@ -1,0 +1,73 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-adtip20-dev-135224-authRole",
+      "UnauthRoleArn": "arn:aws:iam::443834559386:role/amplify-adtip20-dev-135224-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::443834559386:role/amplify-adtip20-dev-135224-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-adtip20-dev-135224-deployment",
+      "UnauthRoleName": "amplify-adtip20-dev-135224-unauthRole",
+      "StackName": "amplify-adtip20-dev-135224",
+      "StackId": "arn:aws:cloudformation:us-east-1:443834559386:stack/amplify-adtip20-dev-135224/87f882b0-d612-11ee-ae56-0a21aa7103b5",
+      "AmplifyAppId": "d2dvzjtnmesvyz"
+    }
+  },
+  "auth": {
+    "adtip20c419b373": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-adtip20-dev-135224-deployment/amplify-cfn-templates/auth/adtip20c419b373-cloudformation-template.json",
+        "logicalId": "authadtip20c419b373"
+      },
+      "lastPushTimeStamp": "2024-02-28T08:28:42.792Z",
+      "output": {
+        "UserPoolId": "us-east-1_8ZX393cax",
+        "AppClientIDWeb": "469qatog7qr40kmdos12ai9ddc",
+        "AppClientID": "1b8flnfmuj7f6gevofcer4cv5k",
+        "IdentityPoolId": "us-east-1:cbbdab47-88fe-4010-b9c8-481817c66fa9",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:443834559386:userpool/us-east-1_8ZX393cax",
+        "IdentityPoolName": "adtip20c419b373_identitypool_c419b373__dev",
+        "UserPoolName": "adtip20c419b373_userpool_c419b373"
+      },
+      "lastPushDirHash": "PoywGjZ2Pzj1roMIDtYdCNmDRuQ="
+    }
+  },
+  "storage": {
+    "adtip": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "lastPushTimeStamp": "2024-02-28T08:28:42.792Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-adtip20-dev-135224-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storageadtip"
+      },
+      "output": {
+        "BucketName": "adtip135224-dev",
+        "Region": "us-east-1"
+      },
+      "lastPushDirHash": "iE/sjk8WyFsc/81Fuoa987N06bc="
+    }
+  }
+}

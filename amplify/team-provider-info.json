@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-adtip20-dev-135224-authRole",
+      "UnauthRoleArn": "arn:aws:iam::443834559386:role/amplify-adtip20-dev-135224-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::443834559386:role/amplify-adtip20-dev-135224-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-adtip20-dev-135224-deployment",
+      "UnauthRoleName": "amplify-adtip20-dev-135224-unauthRole",
+      "StackName": "amplify-adtip20-dev-135224",
+      "StackId": "arn:aws:cloudformation:us-east-1:443834559386:stack/amplify-adtip20-dev-135224/87f882b0-d612-11ee-ae56-0a21aa7103b5",
+      "AmplifyAppId": "d2dvzjtnmesvyz"
+    },
+    "categories": {
+      "auth": {
+        "adtip20c419b373": {}
+      },
+      "storage": {
+        "adtip": {}
+      }
+    }
+  }
+}
